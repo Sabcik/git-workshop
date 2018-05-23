@@ -17,7 +17,7 @@ jobs:
       - run:
           name: run links tests
           command: |
-            awesome_bot README.md --base-url https://sabcik.github.io/git-workshop/blob/$CIRCLE_BRANCH/ 
+            awesome_bot README.md --base-url https://github.com/Sabcik/git-workshop/blob/$CIRCLE_BRANCH/ 
 
 workflows:
    version: 2
